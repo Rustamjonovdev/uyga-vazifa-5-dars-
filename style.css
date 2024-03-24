@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    list-style: none;
+}
+
+.container{
+    background-color: lightblue;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 25px;
+}
+.done{
+    opacity: 0.4;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: lightgreen;
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: green;
+    border: 1px solid lightgreen;
+    color: white;
+}
+
+li{
+    gap: 5px;
+    size: 64px;
+}
